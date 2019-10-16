@@ -44,8 +44,8 @@ header {
     padding-left: 20px;
     }
 header img{
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
     float: left;
 }
 header h1 {
@@ -55,7 +55,7 @@ header h1 {
     margin: 0;
 }
 /*Navigation CSS*/
-ul {
+main ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -64,13 +64,13 @@ ul {
     font-size: 20px;
   }
   
-  li {
+  main li {
     float: left;
     font-family: impact;
     text-align: center;
   }
   
-  li a {
+  main li a {
     display: block;
     color: white;
     text-align: center;
@@ -78,48 +78,20 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
+  main li a:hover {
     background-color: grey;
   }
   /**********************************/
-section {
-    margin: auto;
-    width: 580px;
-}
 
-section div {
-    display: inline-block;
-    height: 160px;
-    width: 160px;
-    margin: 5px;
-    background-color: floralwhite;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 180px;
-    font-size: 120px;
-    color: cadetblue;
-    opacity: 0.7;
-}
 
-button {
-    margin: 10px auto;
-    width: 200px;
-    font-size: 20px;
-    display: block;
-}
 
-.disable {
-    pointer-events: none;
-    background-color: lightgray;
-    opacity: 0.3;
-}
 
-.clicked {
-    pointer-events: none;
-}
-/*FOOTER*/
+
+
+  
+  /*FOOTER*/
 /**********************************/
-footer {
+/* footer {
 	text-transform: uppercase;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -146,4 +118,100 @@ footer {
 
     #gb{
         text-align: center;
+    } */
+    .welcome {
+      text-align: center;
+    }
+    .split {
+      height: 100%;
+      width: 100%;
+    }
+    .split.left{
+      display: block;
+      width: 45%;
+      float: left;
+      /* padding: 5px;
+      margin-left: 5px; */
+      /* text-align: center; */
+      
+    } 
+    
+    .split.right{
+      display: block;
+      width: 45%;
+      float: right;
+      padding: 5px;
+      /* text-align: center; */
+    }
+
+    
+    .leftText {
+      margin-left: 100px;
+      
+    }
+    .leftText li{
+      font-size: 20px;
+      font-family: Comic Sans;
+      
+    }
+    .leftText:hover{
+      color: white;
+    }
+
+    .rightText{
+      margin-left: 100px;
+    }
+    .rightText li{
+      font-size: 20px;
+      font-family: Comic Sans;
+      
+    }
+    .rightText:hover{
+      color: white;
+    }
+
+    .leftText a{
+      text-align: center;
+    }
+    .rightText a{
+      text-align: center;
+    }
+    .leftText h1{
+      text-align: center;
+      color: white;
+    }
+    .rightText h1{
+      text-align: center;
+      color: white;
+    }
+    #memanch{
+      display: block;
+      text-align: center;
+      
+    }
+    #memanch1{
+      text-align: center;
+      border: 1px solid black;
+
+    }
+
+    #ticanch{
+      display: block;
+      text-align: center;
+      /* background-color: white; */
+    }
+    .anch {
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      font-size: 20px;
+    }
+
+    .welcome h1{
+      color:white;
+        font-size:50px;
+    }
+    .welcome p{
+      font-size:30px;
     }
