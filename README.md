@@ -16,7 +16,8 @@ JavaScript, and jQuery for DOM manipulation
 
 ### Wireframes
 
-Your step by step planning sketch of your project, that you can post them as an image in here.
+![memoryGame](images/ss1.jpg)
+![TicTacToe](images/ss2.jpg)
 
 ### User Stories of Tic-Tac-Toe
 --- as a user, I want to play with others.
