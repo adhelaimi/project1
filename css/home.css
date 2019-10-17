@@ -1,7 +1,6 @@
 html {
     height:100%;
 }
-
 body {
     margin:0;
 }
@@ -81,58 +80,20 @@ main ul {
   main li a:hover {
     background-color: grey;
   }
-  /**********************************/
-
-
-
-
-
-
   
-  /*FOOTER*/
-/**********************************/
-/* footer {
-	text-transform: uppercase;
-	padding-left: 20px;
-	padding-right: 20px;
-	background-color: #0D2C40;
-	color: white;
-	font-size: 14;
-	letter-spacing: .08em;
-	font-weight: 500;
-}
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    content: " ";
-    clear: both;
-    height: 0;
-    font-size: 0;
-    }
-
-    footer img{
-        height: 55px;
-        width: 55px;
-    }
-
-    #gb{
-        text-align: center;
-    } */
     .welcome {
       text-align: center;
     }
     .split {
       height: 100%;
       width: 100%;
+      margin-top: 20px;
+      margin-bottom: 50px;
     }
     .split.left{
       display: block;
       width: 45%;
       float: left;
-      /* padding: 5px;
-      margin-left: 5px; */
-      /* text-align: center; */
       
     } 
     
@@ -141,9 +102,7 @@ main ul {
       width: 45%;
       float: right;
       padding: 5px;
-      /* text-align: center; */
     }
-
     
     .leftText {
       margin-left: 100px;

@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
     <link rel="stylesheet" href="css/main2.css">
     <title>Memory Game: Match the skin</title>
 </head>
@@ -18,9 +17,7 @@
         <h1>⠀Match the skin!</h1>
     </header>
     <main>
-      <!--
-          Navigation Bar
-      -->
+      <!--Navigation Bar-->
       <ul>
           <li><a href="index.html">Home</a></li>
           <li><a class="active" href="tic.html">Tic-Tac-Toe</a></li>
@@ -29,25 +26,29 @@
 </main>
 <body>
     <br>
+    <!-- playing board -->
     <section class="memory-game">
+      <!-- declaring every image twice to set the matching -->
         <div class="memory-card" data-framework="skin1">
           <img class="front-face" src="images/sk1.png" alt="skin1"/>
           <img class="back-face" src="images/back.jpg" alt="back"/>
         </div>
+        
         <div class="memory-card" data-framework="skin1">
           <img class="front-face" src="images/sk1.png" alt="skin1"/>
           <img class="back-face" src="images/back.jpg" alt="JS Badge"/>
         </div>
-    
+    <!-- declaring every image twice to set the matching -->
         <div class="memory-card" data-framework="skin2">
           <img class="front-face" src="images/sk2.png" alt="skin2"/>
           <img class="back-face" src="images/back.jpg" alt="back"/>
         </div>
+        
         <div class="memory-card" data-framework="skin2">
           <img class="front-face" src="images/sk2.png" alt="skin2"/>
           <img class="back-face" src="images/back.jpg" alt="back"/>
         </div>
-    
+    <!-- declaring every image twice to set the matching -->
         <div class="memory-card" data-framework="skin3">
           <img class="front-face" src="images/sk3.png" alt="skin3"/>
           <img class="back-face" src="images/back.jpg" alt="back"/>
@@ -56,7 +57,7 @@
           <img class="front-face" src="images/sk3.png" alt="skin3"/>
           <img class="back-face" src="images/back.jpg" alt="back"/>
         </div>
-    
+    <!-- declaring every image twice to set the matching -->
         <div class="memory-card" data-framework="skin4"> 
           <img class="front-face" src="images/sk4.png" alt="skin4"/>
           <img class="back-face" src="images/back.jpg" alt="back"/>
@@ -65,7 +66,7 @@
           <img class="front-face" src="images/sk4.png" alt="skin4"/>
           <img class="back-face" src="images/back.jpg" alt="back"/>
         </div>
-    
+    <!-- declaring every image twice to set the matching -->
         <div class="memory-card" data-framework="skin5">
           <img class="front-face" src="images/sk5.png" alt="skin5"/>
           <img class="back-face" src="images/back.jpg" alt="back"/>
@@ -74,7 +75,7 @@
           <img class="front-face" src="images/sk5.png" alt="skin5"/>
           <img class="back-face" src="images/back.jpg" alt="back"/>
         </div>
-    
+    <!-- declaring every image twice to set the matching -->
         <div class="memory-card" data-framework="skin6">
           <img class="front-face" src="images/sk8.png" alt="skin6"/>
           <img class="back-face" src="images/back.jpg" alt="back"/>
@@ -85,6 +86,7 @@
         </div>
     </section>
     <br>
+    <!-- reloading button -->
     <div class="bttn">
       <input  class="btn" type="button" value="Again?Why Not!" onClick="window.location.href=window.location.href">
     </div>

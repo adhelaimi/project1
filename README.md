@@ -6,13 +6,15 @@ A web application that has games
 
 The web application has a tic-tac-toe game + memory game
 
+## Want to try it?
+
+https://adhelaimi.github.io/project1/
+
 ### Technical Used
 
 HTML
 CSS
 JavaScript, and jQuery for DOM manipulation
-
-
 
 ### Wireframes
 
@@ -55,6 +57,7 @@ My startegy to solve problems is to ask my the TA's, Insructor, my classmates an
 ---
 
  ## References
-* www.github.com
-* www.google.com
-* www.youtube.com
+* www.w3schools.com
+* all images are edited by me and not the original downloaded.
+* how to build memory game: https://www.youtube.com/watch?v=ZniVgo8U7ek
+* how to build memory game: https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript
